@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+<img width="1895" height="976" alt="image" src="https://github.com/user-attachments/assets/ce2b4bf5-f585-434c-8e0f-315f5338a098" />
+<img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/15cde1d2-1fe5-4a87-b8a0-834c6b932996" />
+<img width="1913" height="976" alt="image" src="https://github.com/user-attachments/assets/519f2b96-d17f-4061-8b7d-eac225ea7cb1" />
+Tentu! Karena kode kamu menggunakan gaya bahasa yang santai ("GenZ vibes") dan desain yang modern (dark mode, neon colors), README ini akan dibuat dengan gaya yang senada: profesional tapi tetap slay.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Berikut adalah draf README.md untuk proyek kamu:
 
-## Get started
+🚀 GenZ Vibe - Mobile App Starter
+Modern UI | Neon Aesthetic | Expo Router
 
-1. Install dependencies
+Sebuah starter kit aplikasi mobile menggunakan React Native dan Expo Router dengan desain dark mode yang estetik, transisi antar halaman yang mulus, dan validasi form yang interaktif. Cocok buat lo yang mau bikin dashboard keren dengan waktu singkat!
 
-   ```bash
-   npm install
-   ```
+✨ Fitur Utama
+Modern Auth Flow: Halaman Login dan Register dengan validasi input (Email RegEx, Min-length password).
 
-2. Start the app
+Dynamic Dashboard: Header yang menyapa user secara personal menggunakan params.
 
-   ```bash
-   npx expo start
-   ```
+Sleek UI/UX: Menggunakan glassmorphism tipis, bayangan (shadow/elevation), dan palet warna neon.
 
-In the output, you'll find options to open the app in a
+File-based Routing: Navigasi super gampang berkat expo-router.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+GenZ Vibes: Pesan error dan sukses yang nggak kaku dan asik.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🛠️ Stack Teknologi
+Framework: React Native + Expo
 
-## Get a fresh project
+Navigation: Expo Router (Next.js-style routing)
 
-When you're ready, run:
+Styling: Native StyleSheet (Flexbox)
 
-```bash
-npm run reset-project
-```
+📂 Struktur Folder
+Plaintext
+app/
+├── index.js          # Entry point (Halaman Login)
+├── register.js       # Halaman buat akun baru
+├── home.js           # Dashboard utama setelah login
+└── _layout.js        # Root layout & context provider
+🚀 Cara Menjalankan
+Pastikan lo udah install Node.js di laptop lo.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Clone & Masuk ke Folder
 
-## Learn more
+Bash
+git clone https://github.com/username/project-name.git
+cd project-name
+Install Library
 
-To learn more about developing your project with Expo, look at the following resources:
+Bash
+npx expo install react-native-web react-dom @expo/metro-runtime
+Jalankan Aplikasi
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Bash
+npx expo start
+Tekan w untuk buka di Browser.
 
-## Join the community
+Tekan a untuk Android (pake emulator atau HP asli lewat Expo Go).
 
-Join our community of developers creating universal apps.
+🔐 Akun Dummy (Login)
+Buat lo yang males daftar, bisa langsung masuk pake akun ini di halaman Login:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Email: admin@mail.com
+
+Password: 123456
+
+📸 Preview Tampilan
+Login: Background ungu gelap dengan efek kartu elevated.
+
+Register: Tema biru cyan dengan step indicator yang minimalis.
+
+Home: Dashboard dengan grid menu yang punya warna border berbeda-beda.
+
+🤝 Kontribusi
+Lo punya ide buat nambahin fitur atau benerin bug? Langsung aja pull request! Jangan lupa kasih ⭐ kalau lo suka sama template ini.
+
+Made with 💜 by [Idho Sembiring]
